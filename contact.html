@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Dreamland Resort | Contact</title>
+        <meta name="author" content="Sarah Floyd">
+        <meta name="description" content="Contact page for Dreamland Resorts. Questions or concerns? Speak with us here!">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="#">Dreamland Resort</a> </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accomodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <section id="contact-us">
+            <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <img src="images/swiss-sunset.jpg" width="710" height="210" alt=" A village of cabins in a forest and next to a reflective lake. Behind the village, is  sunset with yellow and purple clouds set behind dark mountains with fog.">
+            </section>
+
+            <form id="contact" action="https://wp.zybooks.com/form-viewer.php " method="POST">
+
+                <label for="full-name">Full Name*</label>
+                <input type="text" name="full-name" id="full-name" required>
+
+                <label for="my-email">Email Address*</label>
+                <input type="email" name="my-email" id="my-email" required>
+
+                <label for="my-phone">Phone Number*</label >
+                <input type="tel" name="my-phone" id="my-phone" required>
+
+                <fieldset>
+                    <legend>Preferred Contact Method*</legend>
+                    
+                    <input type="radio" name="contact-pref" id="pref-email" checked>
+                    <label for="pref-email">Email</label>
+
+                    <input type="radio" name="contact-pref" id="pref-phone">
+                    <label for="pref-phone">Phone</label>
+                </fieldset>
+
+                <label for="my-comments">Comments</label>
+                <textarea name="my-comments" id="my-comments"></textarea>
+
+                <input type="submit" name="my-submit" id="my-submit" value="Submit">
+            </form>
+        </main>
+
+        <footer>
+            <p>Copyright &copy;2023 - Dreamland Resort</p>
+            <p>This site is for educational purposes only.</p>
+        </footer>
+
+
+    </body>
+
+</html>
